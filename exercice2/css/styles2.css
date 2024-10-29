@@ -1,0 +1,49 @@
+.puzzle {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "p1 p1 p2 p3"
+        "p4 p5 p5 p3"
+        "p6 p7 p8 p8"
+        "p6 p9 p9 p10";
+    gap: 0px;
+}
+
+#piece01 {
+    grid-area: p1;
+}
+#piece02 {
+    grid-area: p2;
+}
+#piece03 {
+    grid-area: p3;
+}
+#piece04 {
+    grid-area: p4;
+}
+#piece05 {
+    grid-area: p5;
+}
+#piece06 {
+    grid-area: p6;
+}
+#piece07 {
+    grid-area: p7;
+}
+#piece08 {
+    grid-area: p8;
+}
+#piece09 {
+    grid-area: p9;
+}
+#piece10 {
+    grid-area: p10;
+}
+.source {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    padding-right: 220px;
+    
+    }

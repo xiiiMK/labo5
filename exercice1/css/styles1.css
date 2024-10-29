@@ -1,0 +1,29 @@
+
+
+.puzzle {
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-rows: repeat(3, 150px);
+    grid-template-columns: repeat(3, 150px);
+    margin: auto;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i";
+}
+
+
+.source {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    }
+    #piece1{ grid-area: f;}
+    #piece2{ grid-area: g;}
+    #piece3{ grid-area: e;}
+    #piece4{ grid-area: h;}
+    #piece5{ grid-area: c;}
+    #piece6{ grid-area: a;}
+    #piece7{ grid-area: i;}
+    #piece8{ grid-area: b;}
+    #piece9{ grid-area: d;}
